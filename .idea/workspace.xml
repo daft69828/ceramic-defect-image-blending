@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3faf3f2d-dd66-4ea8-9488-43cee2311986" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_BASNet/saved_models/basnet_bsi/basnet_bsi_itr_128000_train_0.209541_tar_0.000038.pth" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
