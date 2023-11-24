@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3faf3f2d-dd66-4ea8-9488-43cee2311986" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_data processing/coco2voc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_data processing/convert_to_voc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_data processing/convert_voc_to_v5txt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_data processing/make_slice_voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_data processing/make_slice_voc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_data processing/voc2raw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -3,6 +3,7 @@
 1. BASNet：针对缺陷图像样本，生成对应的mask图像
 2. defect_blending：使用泊松融合方法，将缺陷图像融合到指定瓷砖背景中
 3. mmgeneration：一个GAN模型工具箱
+4. data_processing：一些数据处理脚本
 ## 具体说明
 ### 1. BASNet
 **步骤 1**
@@ -43,3 +44,10 @@ n 为需要的缺陷数量，注意此处不是指当次融合的数量，而是
 sh tools/dist_train.sh ${配置文件路径} ${GPU数量(单卡为1)} --work-dir ${结果保存路径}
 ```
 其中，配置文件保存在`./configs/${对应模型}`中，dcgan、lsgan、wgan、ggan可以参考我的配置文件（保存在对应模型的`my`路径下）
+
+### 4. data_processing
+主要方法有：
+1. raw_to_voc 将天池提供的标注类型转换为voc
+2. make_slice_voc 在voc标注格式基础上切图（切图之前需要先完成数据集的划分，否则可能导致同一个缺陷同时出现在训练集和验证集中）
+3. xxx_to_xxx 不同标注格式的转换
+4. extract_from_txt、extract_from_xml 缺陷局部图像提取（用于生成模型训练）

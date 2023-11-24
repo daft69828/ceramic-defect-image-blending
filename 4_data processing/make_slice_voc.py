@@ -1,25 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-@Time ： 2021/1/9 下午6:16
-@Auth ： limzero
-@File ：make_slice_train_voc.py
-@IDE ：PyCharm
-@Motto：ABC(Always Be Coding)
-"""
-# -*- coding: utf-8 -*-
-"""
-@Time ： 2021/1/8 下午5:46
-@Auth ： limzero
-@File ：slice_img.py
-@IDE ：PyCharm
-@Motto：ABC(Always Be Coding)
-"""
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 22 02:53:01 2016
-@author: avanetten
-"""
-
 import os
 import cv2
 import time
